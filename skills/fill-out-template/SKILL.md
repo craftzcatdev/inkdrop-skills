@@ -38,13 +38,14 @@ The response gives you two things:
 Also read every note the scaffold links to (related notes, prior art) — they're context you
 need before you can fill it out well.
 
-## Ask when there's a genuine fork
+## Ask when a decision is needed
 
 When more than one reasonable approach exists — and the choice changes what you'd build —
-state your recommendation with its reasoning and **confirm before finalizing**. `AskUserQuestion`
-is a good fit for a crisp either/or (show the options with short previews). Bake the answer
-into the note's decisions section as resolved, so the plan reflects the real choice rather than
-hedging. Record assumptions you _didn't_ ask about explicitly too, so they're reviewable.
+state your recommendation with its reasoning and **confirm before finalizing**.
+Use `AskUserQuestion` if there are any decisions needed (show the options with short previews).
+Bake the answer into the note's decisions section as resolved, so the plan reflects the real
+choice rather than hedging. Record assumptions you _didn't_ ask about explicitly too, so they're
+reviewable.
 
 ## Save, then wait
 
