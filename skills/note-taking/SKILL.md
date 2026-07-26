@@ -23,6 +23,9 @@ const filteredTags = workspace.loading ? {} : stats?.tags || {};
 
 - Add `filename` (and `line` when pointing at a specific spot) — it makes the
   snippet clickable in Inkdrop. Add `title` to say what the snippet demonstrates.
+- A `title` value **cannot contain a backtick** (`` ` ``) — it breaks the fence
+  parsing. Rephrase to avoid it (e.g. write "the useDebounce hook", not
+  ``"`useDebounce`"``).
 - Prefer `filename`+`line` over `commit`/`url` when the code is uncommitted or the
   repo is private — a GitHub permalink would 404 or go stale.
 - `commit`+`url` link a snippet to a permalink when the code is public and pushed:
