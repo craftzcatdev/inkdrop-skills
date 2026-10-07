@@ -81,6 +81,9 @@ reached for automatically by the agent when the work fits; they hold reusable kn
 - **[note-taking](skills/note-taking/SKILL.md)** — The Markdown reference for Inkdrop note
   bodies: code-block attributes (`filename`, `line`, `title`), Mermaid diagrams, KaTeX math,
   and `inkdrop://note/<id>` links. The agent reaches for it whenever it writes a note.
+- **[mermaid](skills/mermaid/SKILL.md)** — Layout rules for readable Mermaid diagrams in a
+  narrow preview pane: choosing the diagram type and direction, subgraph `direction` and
+  `~~~` placement, label wrapping, and syntax pitfalls.
 
 ## Contributing
 

@@ -76,6 +76,7 @@ graph TD
 ````
 
 For timing/ordering bugs, a `sequenceDiagram` is usually the clearest form.
+For layout (direction, subgraphs, label wrapping), follow the `mermaid` skill.
 
 ## Math (KaTeX)
 
