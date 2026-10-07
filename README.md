@@ -13,6 +13,8 @@ the _hands_; these skills are the _know-how_.
 
 ## Quickstart
 
+### Install with skills.sh
+
 Install with the [skills.sh](https://skills.sh) CLI — it works with Claude Code, Codex,
 Cursor, and 70+ other agents:
 
@@ -23,8 +25,20 @@ npx skills@latest add inkdropapp/skills
 Pick the skills and agents you want, and it copies them into place. That's it — the agent
 picks up each skill automatically when a task matches its description.
 
-<details>
-<summary>Manual install</summary>
+### Install with APM
+
+If you manage agent dependencies with [APM](https://github.com/microsoft/apm), add the skills
+to your project's `apm.yml` and deploy them to every agent it targets:
+
+```bash
+# All skills
+apm install inkdropapp/skills
+
+# or a single skill
+apm install inkdropapp/skills --skill note-taking
+```
+
+### Manual install
 
 A skill is just a folder with a `SKILL.md`. Copy (or symlink) one into your agent's skills
 directory:
@@ -38,8 +52,6 @@ cp -r skills/skills/note-taking ~/.claude/skills/
 # or Project-level — scoped to one repo
 cp -r skills/skills/note-taking .claude/skills/
 ```
-
-</details>
 
 ## Requirements
 
