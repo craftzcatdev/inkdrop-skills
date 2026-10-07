@@ -1,6 +1,6 @@
 ---
 name: note-taking
-description: Tips on writing markdown for note bodies for Inkdrop - code-block attributes, Mermaid diagrams, KaTeX math, and note-link URIs.
+description: Tips on writing markdown for note bodies for Inkdrop - readable structure (short bullets, nested lists, subsections), code-block attributes, Mermaid diagrams, KaTeX math, and note-link URIs.
 ---
 
 # Writing Inkdrop Notes
@@ -8,6 +8,28 @@ description: Tips on writing markdown for note bodies for Inkdrop - code-block a
 Inkdrop renders GitHub-flavored markdown plus a few extras. Reach for these when
 composing any note body destined for Inkdrop, so the result is navigable and
 readable later.
+
+## Structure for readability
+
+Notes are read later, often in a hurry, on a phone or in a narrow pane. Optimise
+for scanning: short lines, one idea per bullet, and nesting instead of long
+sentences.
+
+- **Keep every list item to one idea, one or two short lines.** If an item needs
+  more, split it into nested bullets rather than joining clauses with semicolons
+  or parentheses.
+- **Use nested levels to show structure.** A bold label on the parent, details
+  on the children. Go up to three levels deep when the content branches.
+- **Prefer `###` subsections over bold-lead paragraphs.** When a section has
+  several topics, give each its own heading so it shows up in the outline and
+  can be linked to.
+- **Put facts in tables**, not prose. Versions, counts, key-to-value mappings,
+  per-phase estimates, anything with two or more columns of the same shape.
+- **Keep prose paragraphs to two or three sentences.** Use them for the
+  restatement, the rationale, and the outcome; use lists for everything that is
+  enumerable (files, steps, checks, risks, options).
+- **Name things once per line.** More than one file, function, or flag per
+  bullet is a sign it should be split.
 
 ## Code snippets
 
